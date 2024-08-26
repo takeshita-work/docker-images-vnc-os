@@ -18,7 +18,7 @@ RUN git clone https://github.com/novnc/noVNC.git /opt/noVNC && \
     ln -s /opt/noVNC/utils/websockify/run /usr/local/bin/websockify
 
 # スタートスクリプトをコンテナにコピー
-COPY ubuntu/vnc/start.sh /opt/start.sh
+COPY dockerfile/ubuntu/vnc/start.sh /opt/start.sh
 RUN chmod +x /opt/start.sh
 
 # vnc の起動

@@ -1,5 +1,5 @@
 services:
   ubuntu22.04:
-    image: takeshitayy/vnc-os:ubuntu22.04
+    image: takeshitawork/vnc-os:ubuntu22.04
     ports:
       - 1080:6080
